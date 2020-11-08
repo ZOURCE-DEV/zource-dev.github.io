@@ -9,7 +9,7 @@ $wslSetup = @'
 export DEBIAN_FRONTEND=noninteractive > /dev/null
 
 echo 'Adding packages source...'
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - | bash > /dev/null
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list | bash > /dev/null
 
 echo 'Updating packages information...'
