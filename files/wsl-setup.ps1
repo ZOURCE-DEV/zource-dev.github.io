@@ -21,7 +21,7 @@ sudo apt-get dist-upgrade -yqq > /dev/null
 
 echo 'Installing utilities...'
 
-sudo apt-get install -yqq daemonize dbus-user-session yarn  > /dev/null
+sudo apt-get install -yqq daemonize dbus-user-session yarn jq build-essential apt-transport-https ca-certificates wget curl gnupg-agent software-properties-common > /dev/null
 
 echo 'Installing Node.JS...'
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash > /dev/null
