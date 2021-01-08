@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{w2l6:function(t,e,a){"use strict";a.r(e);var n=a("q1tI"),l=a.n(n),i=a("Bl7J"),o=a("vrFN");e.default=function(t){var e=t.data,a=t.location,n=e.site.siteMetadata.title;return l.a.createElement(i.a,{location:a,title:n},l.a.createElement(o.a,{title:"404: Not Found"}),l.a.createElement("h1",null,"Страница не найдена"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-7d3674416d96730ea960.js.map
